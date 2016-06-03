@@ -1,0 +1,7 @@
+hooks/
+platforms/
+plugins/
+.npmignore
+
+# Mac
+.DS_Store

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>JQuery Mobile Template App</title>
+
+        <link rel="stylesheet" href="libs/jQueryMobile/jquery.mobile-1.4.5.min.css" />
+		
+    </head>
+    <body>
+
+    	<div data-role="page">
+			<div data-role="header">
+				<h1>Título da Página</h1>
+			</div><!-- /header -->
+
+			<div role="main" class="ui-content">
+				<ul data-role="listview">
+				    <li>Acura</li>
+				    <li>Audi</li>
+				    <li>BMW</li>
+				    <li>Cadillac</li>
+				    <li>Ferrari</li>
+				</ul>
+			</div><!-- /conteúdo -->
+
+			<div data-role="footer">
+				<h4>Rodapé</h4>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="libs/fastclick.min.js"></script>
+        <script src="libs/jquery-1.12.4.min.js"></script>
+		<script src="libs/jQueryMobile/jquery.mobile-1.4.5.min.js"></script>
+
+		<script type="text/javascript" src="js/index.js"></script>
+
+		<script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
