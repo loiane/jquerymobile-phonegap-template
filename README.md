@@ -1,5 +1,7 @@
 # PhoneGap App template using JQueryMobile + fastclick
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/loiane/jquerymobile-phonegap-template.svg)](https://greenkeeper.io/)
+
 ## Usage
 
 ### PhoneGap CLI
